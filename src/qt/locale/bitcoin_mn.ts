@@ -62,12 +62,12 @@
         <translation>Хүлээн авах хаяг</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Эдгээр Litecoin хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
+        <source>These are your Fullcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Эдгээр Fullcoin хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Эдгээр Litecoin хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
+        <source>These are your Fullcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Эдгээр Fullcoin хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -152,8 +152,8 @@
         <translation>Түрүйвч цоожлогдлоо</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Цоожлолтын процесыг дуусгахын тулд Litecoin одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны litecoinsуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
+        <source>Fullcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fullcoins from being stolen by malware infecting your computer.</source>
+        <translation>Цоожлолтын процесыг дуусгахын тулд Fullcoin одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны fullcoinsуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -247,8 +247,8 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Fullcoin</source>
+        <translation>Fullcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -271,8 +271,8 @@
         <translation>&amp;Тусламж</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>Litecoinы сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Litecoinы сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
+        <source>%n active connection(s) to Fullcoin network</source>
+        <translation><numerusform>Fullcoinы сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Fullcoinы сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -708,8 +708,8 @@ Address: %4
         <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Анхаар:Буруу Litecoinы хаяг байна</translation>
+        <source>Warning: Invalid Fullcoin address</source>
+        <translation>Анхаар:Буруу Fullcoinы хаяг байна</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -754,8 +754,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Litecoin Core is shutting down...</source>
-        <translation>Litecoinы цѳм хаагдаж байна...</translation>
+        <source>Fullcoin Core is shutting down...</source>
+        <translation>Fullcoinы цѳм хаагдаж байна...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>

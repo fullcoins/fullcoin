@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Litecoin Core litecoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Fullcoin Core fullcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  litecoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded litecoin transaction") + "\n" +
-              "  litecoin-tx [options] -create [commands]   " + _("Create hex-encoded litecoin transaction") + "\n" +
+              "  fullcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded fullcoin transaction") + "\n" +
+              "  fullcoin-tx [options] -create [commands]   " + _("Create hex-encoded fullcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

@@ -150,11 +150,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1488061600;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 2084524493;
+        genesis.nNonce   = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"));
-        assert(genesis.hashMerkleRoot == uint256("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         vSeeds.push_back(CDNSSeedData("fullcointools.com", "dnsseed.fullcointools.com"));
         vSeeds.push_back(CDNSSeedData("fullcoinpool.org", "dnsseed.fullcoinpool.org"));
@@ -214,9 +214,9 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1488061600;
-        genesis.nNonce = 385270584;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f"));
+        assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -276,7 +276,7 @@ public:
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
+        assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.

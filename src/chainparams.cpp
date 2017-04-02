@@ -134,11 +134,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1488061600;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 544016;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x3099012cee03b7d6e69cb8df3b4544034e1a783f4ad3c9c4a4c5b92f03ff0e74"));
+        assert(genesis.hashMerkleRoot == uint256("0xd85bae8495e567f2edb41addea1f9cd645eaeed9f6d8d5999700dcb73105c513"));
 
         vSeeds.push_back(CDNSSeedData("fullcoins.us", "104.238.183.249"));
 
@@ -193,10 +193,10 @@ public:
         nMaxTipAge = 0x7fffffff;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1488061600;
-        genesis.nNonce = 0;
+        genesis.nTime = 1488061601;
+        genesis.nNonce = 3722778;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0xdbbc74deefdb2ec2628f8957b2d8a08a4926a233b30df2f3094648713f1b6640"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -249,12 +249,12 @@ public:
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxTipAge = 24 * 60 * 60;
-        genesis.nTime = 1488061600;
+        genesis.nTime = 1488061602;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x02f348c94bd8670cd90584587106e809a9740cf754dd76a368a8b52ebace95d0"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.

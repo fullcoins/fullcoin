@@ -99,7 +99,7 @@ public:
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
-        vAlertPubKey = ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9");
+        vAlertPubKey = ParseHex("043b42808dd6b3512688f947eeb30eff69d17ffff2ea2f19d83c434ddadb716e16b68dffc9964c52ba0ab60108fe2d938bfca7a511cc3c9690a5de76920e2b5320");
         nDefaultPort = 7333;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 840000;
@@ -121,7 +121,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "NY Times 25/Feb/2017 Trump Intensifies His Attacks on Journalists and Condemns F.B.I. ‘Leakers’";
+        const char* pszTimestamp = "NY Times 25/Feb/2017 Trump Intensifies His Attacks on Journalists";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -134,11 +134,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1488061600;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 544016;
+        genesis.nNonce   = 1495603;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x3099012cee03b7d6e69cb8df3b4544034e1a783f4ad3c9c4a4c5b92f03ff0e74"));
-        assert(genesis.hashMerkleRoot == uint256("0xd85bae8495e567f2edb41addea1f9cd645eaeed9f6d8d5999700dcb73105c513"));
+        assert(hashGenesisBlock == uint256("0x6f4cfe6773e5885c9550a884fdc3ffd021dfd3879931e3490bdff96297d068b1"));
+        assert(genesis.hashMerkleRoot == uint256("0xf8b2412bc043c397329cd48ad853dcd4e8c51265bdf7ef1d1758398a2685f4c5"));
 
         vSeeds.push_back(CDNSSeedData("fullcoins.us", "104.238.183.249"));
 
@@ -194,9 +194,9 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1488061601;
-        genesis.nNonce = 3722778;
+        genesis.nNonce = 3275600;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xdbbc74deefdb2ec2628f8957b2d8a08a4926a233b30df2f3094648713f1b6640"));
+        assert(hashGenesisBlock == uint256("0x4c28cee6905c7f50e8b849f143076e546bdcadb55e25767a4011e5f8b0cfa160"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -254,7 +254,7 @@ public:
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0x02f348c94bd8670cd90584587106e809a9740cf754dd76a368a8b52ebace95d0"));
+        assert(hashGenesisBlock == uint256("0x577798911c27900db88ff28fb0abb3a1b3fead55b90381fed758da91ac554249"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
